@@ -1,0 +1,6 @@
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\bin\Debug\ZombieSurvival.exe.config
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\bin\Debug\ZombieSurvival.exe
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\bin\Debug\ZombieSurvival.pdb
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\obj\Debug\ZombieSurvival.csprojResolveAssemblyReference.cache
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\obj\Debug\ZombieSurvival.exe
+c:\users\robby\documents\visual studio 2017\Projects\ZombieSurvival\ZombieSurvival\obj\Debug\ZombieSurvival.pdb
