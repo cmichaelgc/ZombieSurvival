@@ -44,13 +44,28 @@ namespace ZombieSurvival
             }
             else if (userAnswer == "y")
                     {
+                Console.Clear();
                 Console.WriteLine("The door opens after a struggle, you take your first steps and are immediatly attacked by a Zombie.");
 
                 Console.WriteLine("===================================================");
                 Console.WriteLine("The battle begins and you are struggling to maintain any balance at all.\n" +
-                    "You reach for your {0} and it falls.\n" +
-                    "The Zombie has bitten you, and you can no longer move. You Are Dead.", player.Weapon);
-                Console.ReadLine();
+                    "You reach for your {0} and it falls out of your hands.\n" +
+                    "The Zombie grabs for your throat, but you push it away and it falls to the ground.\n You have defeted the Zombie, and brush yourself off.\n You have to keep moving forward so you move to the next room.", player.Weapon);
+                Console.WriteLine("======================================================");
+                Console.WriteLine("There are two doors ahead. The Door on the left looks well kept, and the other seems to have been broken down\n" + 
+                    "You have to keep moving forward.");
+                Console.WriteLine("What door doo you choose? pick r/l");
+                string userAnswer2 = Console.ReadLine();
+                if (userAnswer2 == "l")
+                {
+                    Console.WriteLine("The door is locked... the zombie you thought was dead has bitten your leg. You are DEAD.");
+                    Console.ReadLine();
+                }
+                else if (userAnswer2 == "r")
+                {
+                    Console.WriteLine("The Zombie you thought was dead attacks you, but you bust through the broken door,\n and the zombie is killed from falling debre that smashes its head.");
+                    Console.ReadLine();
+                }
             }
         }
         private static void MainAppTitle()
